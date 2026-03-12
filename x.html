@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rishikesh Trip 🍻</title>
+
+<link rel="stylesheet" href="c.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="beerPage">
+
+<div class="particles"></div>
+
+<div class="hero">
+
+<h1 class="mainTitle">RISHIKESH TRIP</h1>
+
+<p class="tagline">Maggie Points • Ganges Tapri • Dev • Track</p>
+
+<p class="subText">
+
+Click the beers to start the journey.
+</p>
+
+<div class="beerStage">
+
+<img id="beerLeft" class="beer left"
+src="https://cdn-icons-png.flaticon.com/512/931/931949.png"
+onclick="startCheers()">
+
+<img id="beerRight" class="beer right"
+src="https://cdn-icons-png.flaticon.com/512/931/931949.png"
+onclick="startCheers()">
+
+</div>
+
+<div class="cheersMessage" id="cheersMessage">CHEERS 🍻</div>
+
+<button class="cheersButton" onclick="startCheers()">
+START THE TRIP
+</button>
+
+<p class="bottomText">
+Powered by me obvio but not sponserd😎
+</p>
+
+</div>
+
+<audio id="cheersSound">
+<source src="audio/audio.mp3">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
